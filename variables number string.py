@@ -26,3 +26,22 @@ print(3**2)
 f_name="Muneer"
 l_name="Hasan"
 print(f_name,l_name)
+#list in python
+items=['breads','pasta','banana','apple']
+print(items)
+#print one 
+print(items[0])
+#replace items
+items[1]='juice'
+print(items)
+#addd
+items.append('butter')
+print(items)
+#add at postion
+items.insert(2, 'lemon')
+print(items)
+#add two lists
+items=['breads','pasta','banana','apple']
+item1=['chicken','tomato','onion']
+print(items+item1)
+
